@@ -6,10 +6,11 @@
  */
 int main(void)
 {
-	printf("%lu\n",sizeof(int)):
-	printf("%lu\n",sizeof(char));
-	printf("%lu\n",sizeof(long int));
-	printf("%lu\n",sizeof(long long int));
-	printf("%lu\n",sizeof(float));
+	// in output in 32-bit and 64-bit gcc
+	printf("%u\n",sizeof(int));
+	printf("%u\n",sizeof(char));
+	printf("%u\n",sizeof(long int));
+	printf("%u\n",sizeof(long long int));
+	printf("%u\n",sizeof(float));
 	return (0);
 }
