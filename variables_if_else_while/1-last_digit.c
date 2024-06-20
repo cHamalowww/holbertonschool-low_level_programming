@@ -13,7 +13,6 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	int i = 0;
 	{
 	for (i = 0; i <= 6; n++);
 	if (i == 0)
