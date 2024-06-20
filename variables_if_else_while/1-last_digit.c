@@ -15,11 +15,11 @@ int main(void)
 	for (n = 0; n <= 6; is++)
 
 	if (n == 0)
-		printf("Last digit of %d is\n" n)
+		printf("Last digit of %d is\n" n);
 	else if (n <= 6)
-		printf("Last digit of %d is\n" n)
+		printf("Last digit of %d is\n" n);
 	else
-		print("Last digit of %d is\n" n)
+		print("Last digit of %d is\n" n);
 
 	return (0);
 }
