@@ -11,7 +11,7 @@ int main(void)
 {
 	int hpla;
 
-	for (hpla = 97; hpla <= 122; hpla--)
+	for (hpla = 122; hpla >= 97; hpla--)
 	{
 		putchar(hpla);
 	}
